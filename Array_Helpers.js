@@ -16,12 +16,3 @@ Array.prototype.even =function(){
 Array.prototype.odd =function(){
     return this.filter(num=> num%2 !== 0);
 }
-
-
-var numbers = [1, 2, 3, 4, 5];
-console.log(numbers.cube());
-console.log(numbers.square());
-console.log(numbers.average());
-console.log(numbers.sum());
-console.log(numbers.odd());
-console.log(numbers.even());
